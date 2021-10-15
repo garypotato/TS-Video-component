@@ -43,6 +43,30 @@ In a nutshell, there is nothing special but just a normal standard video player.
 
 
 ## arguments
+There are two components: `popup.js` and `video.js`.  They are written in `class` which includes `static function`
 
+### popup.js
+Please have a look the arguments  
+| props | required | type | description | params |
+| --- | --- | --- | --- | --- |
+| width | no | String | window width | "880px" |
+| height | no | String | window height | "600px" |
+| title | no | String | window title | "I am a window title" |
+| pos | no | String | the postition of the window |  `center` `left` `right` |
+| mask | no | boolean | mask at the back |  `ture` `false` |
+| content | no | function | return a video |  --- |
+### video.js
+| props | required | type | description | params |
+| --- | --- | --- | --- | --- |
+| url | no | String | the video url | "www.google.com/example.mp4" |
+| elem | no | String | HTMLElement | which `DOM` has the video | <div> |
+| width | no | String | vidoe width | "880px" |
+| height | no | String | vidoe height |  "880px"` |
+| autoplay | no | boolean | if the video will auto play when pop up |  `ture` `false` |
 
-
+## What I've achieved
+1. know more about TS, DOM control and `addEventListener`
+2. simple `webpack` customise according to different needs, rather than install everything that I actually don't need it.
+3. know more about `CSS module`
+4. understand how to create a simple video player
+3. 
