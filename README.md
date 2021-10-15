@@ -65,14 +65,13 @@ Please have a look the arguments
 | content | no | function | return a video | --- |
 
 ### video.js
-
-| props    | required | type    | description                             | params                       |
-| -------- | -------- | ------- | --------------------------------------- | ---------------------------- | ----- |
-| url      | no       | String  | the video url                           | "www.google.com/example.mp4" |
-| elem     | no       | String  | HTMLElement                             | which `DOM` has the video    | <div> |
-| width    | no       | String  | video width                             | "880px"                      |
-| height   | no       | String  | video height                            | "880px"`                     |
-| autoplay | no       | boolean | if the video will auto play when pop up | `true` `false`               |
+| props | required | type | description | params |
+| --- | --- | --- | --- | --- |
+| url | no | String | video url | "www.google.com/example.mp4" |
+| elem | no | String | parent node | <div></div> |
+| width | no | String | video width | "880px" |
+| height | no | String | video height | "880px" |
+| autoplay | no | boolean | if the video auto play | `true` `false` |
 
 ## What I've achieved
 
