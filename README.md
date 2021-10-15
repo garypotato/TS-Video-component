@@ -69,4 +69,3 @@ Please have a look the arguments
 2. simple `webpack` customise according to different needs, rather than install everything that I actually don't need it.
 3. know more about `CSS module`
 4. understand how to create a simple video player
-3. 
