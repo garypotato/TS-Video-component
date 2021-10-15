@@ -28,5 +28,6 @@ After doing this, I found that `CSS module` allows me to write less code and hav
 
 ## video component
 Please have a look  
+![WeChat Screenshot_20211015165701](https://user-images.githubusercontent.com/72715709/137439868-be66fabc-f0a4-4e2c-b06c-b36085d5d1f8.png)
 
 
