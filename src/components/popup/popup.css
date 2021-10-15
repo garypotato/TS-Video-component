@@ -1,0 +1,45 @@
+.popup {
+    position: fixed;
+    z-index: 20;
+
+    border: 1px solid #cccccc;
+}
+
+.popup-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 60px;
+
+    background: #f5f5f5;
+}
+
+.popup-title h3 {
+    font-size: 18px;
+
+    margin-left: 20px;
+}
+
+.popup-title i {
+    font-size: 18px;
+
+    margin-right: 20px;
+
+    cursor: pointer;
+}
+
+.popup-content {
+    height: calc(100% - 60px);
+
+    background: white;
+}
+
+.mask {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+
+    background: rgba(0, 0, 0, 0.5);
+}
