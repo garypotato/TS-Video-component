@@ -2,6 +2,13 @@
 
 I realise all my previous project are based on JS framework e.g. React or Vue, result in that I don't know how to manipulate `DOM`. Therefore, I decided to code a video component in pure JS.
 
+## What I've achieved
+
+1. know more about TS, DOM control and `addEventListener`
+2. simple `webpack` customise according to different needs, rather than install everything that I actually don't need it.
+3. know more about `CSS module`
+4. understand how to create a simple video player, including process control bar and voice control
+
 ## webpack
 
 Since I am not going to use React, so I won't use the `create-react-app`. I made a simple `webpack.config.js` to transpile ES5, CSS, and TS.
@@ -73,9 +80,4 @@ Please have a look the arguments
 | height | no | String | video height | "880px" |
 | autoplay | no | boolean | if the video auto play | `true` `false` |
 
-## What I've achieved
 
-1. know more about TS, DOM control and `addEventListener`
-2. simple `webpack` customise according to different needs, rather than install everything that I actually don't need it.
-3. know more about `CSS module`
-4. understand how to create a simple video player
